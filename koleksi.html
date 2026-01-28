@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">📚 Muara Literasi</div>
+    <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="dewey.html">Klasifikasi</a></li>
+        <li><a href="koleksi.html" class="active">Koleksi</a></li>
+    </ul>
+</nav>
+
+<section class="section">
+    <h1>Koleksi Buku Digital</h1>
+
+    <input type="text" id="search" placeholder="Cari judul buku..." onkeyup="searchBook()">
+
+    <div id="book-list" class="grid-books">
+
+        <div class="book-card">
+            <h3>Buku IPA Kelas X</h3>
+            <iframe src="https://fliphtml5.com/bookcase/example1"
+                    width="100%" height="350"></iframe>
+        </div>
+
+        <div class="book-card">
+            <h3>Novel Fiksi - Kategori 800</h3>
+            <iframe src="https://fliphtml5.com/bookcase/example2"
+                    width="100%" height="350"></iframe>
+        </div>
+
+        <div class="book-card">
+            <h3>Teknologi & Sains - Kategori 600</h3>
+            <iframe src="https://fliphtml5.com/bookcase/example3"
+                    width="100%" height="350"></iframe>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+<footer>
+    <p>&copy; 2026 Perpustakaan Muara Literasi</p>
+</footer>
+
+</body>
+</html>
